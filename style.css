@@ -18,30 +18,34 @@ h1 {
 	border-radius: 5px;
 	padding: 10px 20px;
 	box-shadow: 3px 3px 3px rgb(92, 136, 121) ;
+	
 }
 .foto {
-	
+	display: flex;
+	justify-content: center;
 }
 .foto img {
 	border-radius: 50%;
 	max-width: 100%;
+	
 }
 .jmeno {
 
 }
-/*
+
 .popis {
-	
-	padding: 0px 30px;	
+	text-align: center;
+	padding: 0px 20px;	
 }
-*/
+
 
 
 @media (min-width: 500px) {
 	.tym {
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
+		
+		gap: 10px;
 		}
 .osoba {
 	display: flex;
@@ -58,6 +62,8 @@ h1 {
 		}
 .osoba {
 flex: 1 1 23%;	
+display: block;
+text-align: center;
 }
 }
 
